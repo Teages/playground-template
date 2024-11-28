@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.14.3",
+  "description": "",
+  "license": "MIT",
+  "repository": "Teages/repo",
+  "scripts": {
+    "play": "jiti playground/index.ts",
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix .",
+    "test": "vitest run",
+    "test:watch": "vitest dev",
+    "test:types": "tsc --noEmit --skipLibCheck"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.11.2",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20",
+    "eslint": "^9.15.0",
+    "jiti": "2.4.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  }
+}
