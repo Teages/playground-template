@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": "Teages/repo",
   "scripts": {
-    "play": "jiti playground/index.ts",
+    "play": "jiti src/index.ts",
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
     "test": "vitest run",

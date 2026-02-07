@@ -1,8 +1,11 @@
 {
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
+    "types": [
+      "vitest/importMeta"
+    ],
     "noEmit": true
   },
-  "include": ["playground"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
